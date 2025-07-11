@@ -12,6 +12,7 @@ This is a full-stack web application developed to streamline the management of a
 The project also includes:
 - Software Requirements Specification (SRS)
 - Functional & Non-functional Requirements
+- Use Case Descriptions
 - Use Case, Sequence, State, and Class Diagrams
 - UI Design for all user roles
 - Database schema and design
