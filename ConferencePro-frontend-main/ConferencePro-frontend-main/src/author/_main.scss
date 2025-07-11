@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Kollektif;
+    src: url(../fonts/Kollektif-Bold.ttf);
+}
+
+.pageContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fdfdfd;
+    text-align: left;
+    height: 100vh;
+}
+
+.contentContainer {
+    float: left;
+    height: 100vh;
+    width: 82%;
+}
+
+.headerContainer { 
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 14vh;
+    width: calc(100% - 3em - 6vw);
+    margin-left: 3em;
+    margin-right: 6vw;
+}
+
+.headerText {
+    color: #0D184C;
+    font-size: 3.4vh;
+    font-weight: 700;
+}
+
+.profileIcon {
+    height: 6vh;
+    width: 6vh;
+}
+
+.button {
+    box-sizing: border-box;
+    background-color: #e1705d;
+    color: #fdfdfd;
+    font-weight: 700;
+    font-size: 2.2vh;
+    border: none;
+
+    &:hover {
+        border: solid;
+        border-color: #e1705d;
+        background-color: #fdfdfd;
+        color: #e1705d;
+    }
+}

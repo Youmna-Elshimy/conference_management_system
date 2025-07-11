@@ -1,0 +1,109 @@
+@use 'main';
+
+.bodyTextContainer {
+    box-sizing: border-box;
+    height: 86%;
+    width: 100%;
+    padding-bottom: 3em;
+    padding-left: 3em;
+    padding-right: 6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bodyText {
+    text-align: left;
+    font-size: 2.2vh;
+    line-height: 2.2em;
+    color: #000000;
+}
+
+.heading {
+    font-size: 2.4vh;
+}
+
+.boldText {
+    font-weight: 700;
+}
+
+.textHighlight {
+    color: #e1705d;
+}
+
+.tick {
+    height: 2.8vh;
+    width: auto;
+}
+
+.tick, .inlineText {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    height: 9vh;
+    width: 12vw;
+    border-radius: 5vh;
+}
+
+.headerContainer {
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-color: #e8e8e8;
+}
+
+.rowsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.paperRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: solid;
+  border-bottom-width: 1px;
+  border-color: #e8e8e8;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+.paperTitle {
+  color: #252525;
+  text-decoration: underline;
+  font-size: 2.2vh;
+  font-weight: 700 !important;
+}
+
+.viewPaper a {
+  color: #E1705D;
+  font-size: 1.8vh;
+  font-weight: 700 !important;
+}
+
+%statusBox {
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  font-size: 1.8vh;
+  border-radius: 8px;
+}
+
+.statusBoxreviewed {
+  @extend %statusBox;
+  background-color: #DBF4E7;
+  color: #00A651;
+}
+
+.statusBoxnotReviewed {
+  @extend %statusBox;
+  background-color: #FBECE6;
+  color: #E05526;
+}

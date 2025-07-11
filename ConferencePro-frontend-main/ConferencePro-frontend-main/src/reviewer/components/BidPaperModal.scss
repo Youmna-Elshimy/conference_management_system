@@ -1,0 +1,79 @@
+.modal {
+    width: 40%;
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 3%;
+    z-index: 1000;
+    position: fixed;
+    top: 200px;
+    left: 50%;
+    text-align: left;
+    transform: translateX(-50%);
+}
+
+.backdrop {
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.modal__paper-title {
+    font-weight: 700;
+    color: #000;
+    font-size: 16px;
+    margin: 0 0 2% 0;
+}
+
+.modal__abstract {
+    font-weight: 400;
+    color: #545454;
+    font-size: 15px;
+    margin: 0 0 2% 0;
+}
+
+.modal__abstract-content {
+    padding-top: 4%;
+    border-top: 0.5px solid #e1705d;
+}
+
+.modal__abstract-content p {
+    font-weight: 500;
+    color: #252525;
+    text-align: justify;
+}
+
+.modal__cancel-btn,
+.modal__close-btn {
+    margin-top: 4%;
+    margin-right: 2%;
+    padding: 8px 32px;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.modal__close-btn {
+    border: 1px solid #e1705d;
+    background-color: #e1705d;
+}
+
+.modal__cancel-btn {
+    border: 1px solid #8a8a8a;
+    background-color: #8a8a8a;
+}
+
+.modal__close-btn:hover {
+    background-color: #fff;
+    color: #e1705d;
+}
+
+#review-feedback__textarea {
+    width: 100%;
+    height: 20vh;
+    border: 1px solid #f3f3f3;
+    padding: 2%;
+}

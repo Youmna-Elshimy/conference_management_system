@@ -1,0 +1,44 @@
+.past-reviewers-table__container {
+    margin: 4%;
+}
+
+.past-reviews__container-row {
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    border-top: 1px solid #e1705d;
+    align-items: center;
+}
+
+.past-reviews__container-row p {
+    font-weight: 400;
+    color: #000;
+}
+
+.past-reviewers__name-title,
+.past-reviewers__name {
+    width: 20%;
+}
+
+.past-reviewers__rating-given-title,
+.past-reviewers__rating-given {
+    width: 15%;
+}
+
+.past-reviewers__review-given-title,
+.past-reviewers__review-given {
+    width: 45%;
+}
+
+.add-feedback__action-btn {
+    text-align: right;
+    width: 20%;
+    cursor: pointer;
+    color: #e05526;
+    text-decoration: underline;
+}
+
+.add-feedback__action-btn:hover {
+    color: #000;
+    text-decoration: none;
+}

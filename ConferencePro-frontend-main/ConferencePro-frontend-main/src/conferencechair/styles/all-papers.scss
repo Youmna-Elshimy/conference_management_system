@@ -1,0 +1,109 @@
+.papers_tabs_list {
+  display: flex;
+  // font-size: medium;
+  border: none;
+  list-style-type: none;
+}
+
+.papers_tab {
+  border: none;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  padding-right: 1rem;
+  cursor: pointer;
+  outline: none;
+  color: rgb(107 114 128);
+
+  &.react-tabs__tab--selected {
+    color: #e05526;
+    font-weight: bold;
+  }
+}
+
+.assigned_papers_row {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgb(229 231 235);
+}
+
+.assigned_papers_row > :first-child {
+  grid-column: 1/6;
+  display: block;
+  // font-size: medium;
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+.assigned_papers_row > :nth-child(2) {
+  grid-column: 7/9;
+  text-align: right;
+  // font-size: small;
+  color: rgb(107 114 128);
+}
+
+.assigned_papers_row > :nth-child(3) {
+  grid-column: 10/12;
+  text-align: right;
+}
+
+.unassigned_papers_row {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  align-items: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgb(229 231 235);
+}
+
+.unassigned_papers_row > :first-child {
+  grid-column: 1/9;
+  display: block;
+  font-size: medium;
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+.unassigned_papers_row > :nth-child(2) {
+  grid-column: 10/12;
+  text-align: right;
+  // font-size: small;
+  color: rgb(107 114 128);
+}
+
+.assigned_papers_row-link {
+  color: #252525;
+}
+
+.assigned_papers_row-link:hover {
+  color: #e05526;
+  text-decoration: none;
+}
+
+.status_common {
+  border-radius: 0.375rem;
+  padding: 0.25rem 0.5rem;
+  // font-size: small;
+  text-transform: capitalize;
+  text-decoration: none;
+
+  &.pending {
+    background-color: rgba(167, 158, 156, 0.2);
+    color: gray;
+  }
+
+  &.accepted {
+    background-color: rgb(34 197 94 / 0.2);
+    color: rgb(34 197 94);
+  }
+
+  &.rejected {
+    background-color: rgb(239 68 68 / 0.2);
+    color: rgb(239 68 68);
+  }
+}
+

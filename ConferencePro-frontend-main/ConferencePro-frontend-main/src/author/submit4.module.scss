@@ -1,0 +1,60 @@
+@use './newsubmission.module.scss';
+
+.formContainer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.message {
+    color: #8a8a8a;
+    margin-bottom: 3vh;
+}
+
+.topicSelectorContainer {
+    box-sizing: border-box;
+    border: solid;
+    border-width: 1px;
+    border-color: #e8e8e8;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 60%;
+}
+
+.topicSelectorHeadingContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-color: #e8e8e8;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+.topicSelectorHeading {
+    font-size: 2.2vh;
+    font-weight: 700;
+    color: #0E194D;
+}
+
+.topicSelectorSubHeading {
+    font-size: 2.2vh;
+    color: #8a8a8a;
+}
+
+.topicSelectorCheckboxContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}

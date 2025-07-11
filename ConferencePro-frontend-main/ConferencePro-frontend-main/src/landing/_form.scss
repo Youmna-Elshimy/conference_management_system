@@ -1,0 +1,40 @@
+.form {
+    width: 22vw;
+    margin-bottom: 10vh;
+    text-align: left;
+
+    label {
+        color:rgba(14, 25, 77, 0.8);
+        font-weight: 700;
+        font-size: 2vh;
+    }
+}
+
+.formInput {
+    box-sizing: border-box;
+    height: 5.5vh;
+    width: 22vw;
+    background-color: #fdfdfd;
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.25);
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: Montserrat;
+    color:rgba(14, 25, 77, 1);
+    font-size: 1.8vh;
+    font-weight: 500;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+
+    &::placeholder {
+        color:rgba(14, 25, 77, 0.35);
+        opacity: 1;
+    }
+}
+
+.submitButton {
+    height: 5.5vh;
+    font-size: 1.85vh;
+}

@@ -1,0 +1,34 @@
+.w-full {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-gray {
+  color: rgb(156 163 175);
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.chair_page_content {
+  padding: 0 2.5rem;
+}

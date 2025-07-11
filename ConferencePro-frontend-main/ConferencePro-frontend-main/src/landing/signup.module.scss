@@ -1,0 +1,36 @@
+@use 'main';
+@use 'form';
+
+.headingContainer {
+    width: 22vw;
+}
+
+.heading {
+    margin: 0;
+    padding: 0;
+    color: rgba(14, 25, 77, 1);
+    font-weight: 800;
+    font-size: 2.2vw;
+}
+
+.headingSubtext {
+    margin-top: 0;
+    margin-bottom: 2.5vh;
+    padding-top: 0;
+    font-size: 1.4vh;
+    text-align: left;
+    font-weight: 600;
+    line-height: 135%;
+}
+
+.bottomText {
+    position: absolute;
+    top: 91vh;
+    font-size: 1.8vh;
+
+    span {
+        color: rgba(225, 112, 93, 1);
+        text-decoration: none;
+        font-weight: 700;
+    }
+}

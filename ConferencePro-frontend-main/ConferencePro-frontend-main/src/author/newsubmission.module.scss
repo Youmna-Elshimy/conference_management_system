@@ -1,0 +1,61 @@
+@use 'main';
+
+.bodyTextContainer {
+    box-sizing: border-box;
+    height: 86%;
+    width: 100%;
+    padding-bottom: 3em;
+    padding-left: 3em;
+    padding-right: 6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bodyText {
+    text-align: left;
+    font-size: 2.2vh;
+    line-height: 2.2em;
+    color: #000000;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.heading {
+    font-size: 2.4vh;
+}
+
+.boldText {
+    font-weight: 700;
+}
+
+.textHighlight {
+    color: #e1705d;
+}
+
+.tick {
+    height: 2.8vh;
+    width: auto;
+}
+
+.tick, .inlineText {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    height: 9vh;
+    width: 12vw;
+    border-radius: 5vh;
+}
+
+.headerContainer {
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-color: #e8e8e8;
+}

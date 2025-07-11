@@ -1,0 +1,42 @@
+.status_modal {
+  position: fixed;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  .status_modal_content {
+    width: 40%;
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 3%;
+    position: relative;
+
+    .close_icon_container {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      cursor: pointer;
+    }
+
+    .tick_container {
+        display: flex;
+        justify-content: center;
+        padding: 2rem 0;
+    }
+
+    .status_modal_title {
+      font-weight: 700;
+      color: #000;
+      font-size: 16px;
+      margin: 0 0 2% 0;
+    }
+
+  }
+}

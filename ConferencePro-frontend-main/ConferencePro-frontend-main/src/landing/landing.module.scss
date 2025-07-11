@@ -1,0 +1,37 @@
+@use 'main';
+
+.logo {
+    height: 8.5vh;
+    width: 8.5vh;
+    vertical-align: middle;
+}
+
+.title {
+    font-family: 'Kollektif', sans-serif;
+    font-size: 4.5vh;
+    color: #0e194d;
+    vertical-align: middle;
+    margin-left: 0.7vh;
+}
+
+.logoContainer {
+    margin-bottom: 0;
+}
+
+.welcomeText {
+    margin-top: 0;
+    margin-bottom: 5vh;
+}
+
+.signupText {
+    margin-top: 7.5vh;
+    margin-bottom: 0;
+
+    span { font-weight: 700 }
+
+    a {
+        color: #e1705d;
+        font-weight: 700;
+        text-decoration: none;
+    }
+}

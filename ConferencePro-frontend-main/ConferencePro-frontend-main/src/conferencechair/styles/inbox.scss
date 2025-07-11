@@ -1,0 +1,17 @@
+.inbox_content {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: fit-content;
+        opacity: 0.4;
+    }
+
+    & > p{
+        color: gray;
+        margin: 1rem 0 0 1rem;
+    }
+}

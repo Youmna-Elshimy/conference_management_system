@@ -1,0 +1,39 @@
+@use 'main';
+@use 'form';
+
+.welcomeBack {
+    text-align: left;
+    width: 22vw;
+    margin-bottom: 5vh;
+}
+
+.heading {
+    margin: 0;
+    padding: 0;
+    color: rgba(14, 25, 77, 1);
+    font-weight: 800;
+    font-size: 2.2vw;
+}
+
+.forgetPassword {
+    color: rgba(225, 112, 93, 1);
+    text-align: center;
+    font-size: 1.5vh;
+    font-weight: 700;
+    margin-top: 2.5%;
+
+    &:hover { cursor: pointer; }
+}
+
+.signupText {
+    position: absolute;
+    top: 91vh;
+
+    span { font-weight: 700; }
+
+    a {
+        font-weight: 700;
+        color: #e1705d;
+        text-decoration: none;
+    }
+}

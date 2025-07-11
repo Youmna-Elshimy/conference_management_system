@@ -1,0 +1,71 @@
+.row-item__container {
+    display: flex;
+    flex-direction: column;
+    padding: 0% 10% 0% 8%;
+    text-align: left;
+}
+
+.row-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.paper__id {
+    width: 5%;
+}
+
+.paper__title {
+    width: 60%;
+    color: #252525;
+    text-align: left;
+}
+
+.paper-row__title {
+    width: 60%;
+    color: #252525;
+    text-align: left;
+}
+
+.paper-abstract__view-link {
+    border: none;
+    cursor: pointer;
+    color: #e1705d;
+    text-decoration: underline;
+    background-color: #fff;
+}
+
+.paper-abstract__view-link:hover {
+    text-decoration: none;
+}
+
+.paper__action-btn {
+    cursor: pointer;
+    background-color: #e1705d;
+    color: #fff;
+    padding: 1%;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    width: 13%;
+}
+
+.paper__action-btn:hover:enabled {
+    background-color: #fff;
+    color: #e1705d;
+    border: 1px solid #e1705d;
+}
+
+.paper__action-btn:disabled {
+    background-color: #f3f3f3;
+    color: #8a8a8a;
+    cursor: default;
+}
+
+.row-item__divider {
+    width: 100%;
+    height: 1.5px;
+    border-radius: 1px;
+    background-color: #e8e8e8;
+    margin: 4% 0 4% 0;
+}

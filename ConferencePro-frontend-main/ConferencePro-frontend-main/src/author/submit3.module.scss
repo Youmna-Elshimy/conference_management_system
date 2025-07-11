@@ -1,0 +1,55 @@
+@use './newsubmission.module.scss';
+
+.authorInfoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 3vh;
+}
+
+.infoItem {
+    color: rgba(14, 25, 77, 0.8);
+    font-size: 2.2vh;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.bodyTextContainer {
+    padding-top: 3vh;
+}
+
+.buttonContainer {
+    justify-content: end;
+}
+
+.inputField {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #D9D9D8;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-size: 2.2vh;
+    margin-top: 1vh;
+    padding: 5%;
+    width: 20vw;
+    height: 6vh;
+}
+
+.addAuthorButton {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.7vw;
+  width: fit-content;
+}
+
+.addAuthorButtonText {
+  font-size: 1.9vh;
+  color: #e1705d;
+  font-weight: 600;
+}

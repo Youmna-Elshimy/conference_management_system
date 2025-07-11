@@ -1,0 +1,12 @@
+@use "../../components/MainNavBar.scss";
+
+.navbar__submissionStep {
+  line-height: 14px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+.navbar__boldText {
+  font-weight: 700;
+  margin-top: 5px;
+}
