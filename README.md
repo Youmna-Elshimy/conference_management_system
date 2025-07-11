@@ -1,6 +1,6 @@
 # **Conference Management System**
 
-This is a full-stack web application developed to streamline the management of academic research conferences. It supports the entire lifecycle of conference paper submissions from submission and bidding to review, decision-making, and author notification. The system provides dedicated interfaces for Authors, Reviewers, Conference Chairs, and System Administrators, each tailored to their specific workflows. Its features include
+This is a full-stack web application developed to streamline the management of academic research conferences. It supports the entire lifecycle of conference paper submissions from submission and bidding to review, decision-making, and author notification. The system provides dedicated interfaces for Authors, Reviewers, Conference Chairs, and System Administrators, each tailored to their specific workflows. Its features include:
 - Secure login and role-based access control
 - Paper submission with support for multiple authors
 - Reviewer bidding and workload management
